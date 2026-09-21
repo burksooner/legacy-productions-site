@@ -19,9 +19,8 @@
 .contact-phone{position:relative;width:min(100%,340px);aspect-ratio: .55;padding:9px;border:2px solid #ad8954;border-radius:45px;background:#0e0c0b;box-shadow:0 25px 55px rgba(0,0,0,.35)}
 .contact-phone:before{content:"";position:absolute;top:8px;left:50%;width:108px;height:23px;transform:translateX(-50%);border-radius:0 0 14px 14px;background:#0e0c0b;z-index:4}
 .contact-phone-screen{position:relative;width:100%;height:100%;overflow:hidden;border-radius:34px;background:#42362b}
-.contact-phone-screen>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% center}
+.contact-phone-screen>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.25)}
 .contact-phone-screen:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,13,10,.24),transparent 32%,rgba(17,13,10,.25) 53%,rgba(15,12,10,.94));z-index:1;pointer-events:none}
-.contact-image-label{position:absolute;top:47px;left:20px;z-index:2;padding:7px 10px;border:1px solid rgba(255,255,255,.58);color:#fff;font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:rgba(20,17,14,.45)}
 .contact-phone-content{position:absolute;left:22px;right:22px;bottom:55px;z-index:2}
 .contact-phone-content strong{display:block;margin-bottom:20px;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(3.25rem,5vw,4.1rem);font-weight:500;line-height:.88;letter-spacing:-.025em;color:#fff}
 .contact-phone-content strong span{display:block}
